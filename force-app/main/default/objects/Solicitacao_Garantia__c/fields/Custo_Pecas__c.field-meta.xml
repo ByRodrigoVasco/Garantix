@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custo_Pecas__c</fullName>
+    <externalId>false</externalId>
+    <label>Custo Total das Peças</label>
+    <summarizedField>Peca_Substituida__c.Custo__c</summarizedField>
+    <summaryForeignKey>Peca_Substituida__c.Solicitacao__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

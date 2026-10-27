@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Situacao_SLA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  OR(ISPICKVAL(Status__c, "Aprovada"), ISPICKVAL(Status__c, "Rejeitada"), ISPICKVAL(Status__c, "Concluída")),
+  "Encerrada",
+  IF(TODAY() &gt; Prazo_SLA__c, "Atrasada", "No prazo")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsBlank</formulaTreatBlanksAs>
+    <label>Situação do SLA</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

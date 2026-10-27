@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solicitacao_Compacto</fullName>
+    <fields>Name</fields>
+    <fields>Garantia__c</fields>
+    <fields>Status__c</fields>
+    <fields>Prioridade__c</fields>
+    <fields>Situacao_SLA__c</fields>
+    <fields>Elegivel_Cobertura__c</fields>
+    <label>Solicitação Compacto</label>
+</CompactLayout>

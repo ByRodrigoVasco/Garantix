@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custo_Nao_Negativo</fullName>
+    <active>true</active>
+    <description></description>
+    <errorConditionFormula>Custo_Estimado__c &lt; 0</errorConditionFormula>
+    <errorDisplayField>Custo_Estimado__c</errorDisplayField>
+    <errorMessage>O custo estimado não pode ser negativo.</errorMessage>
+</ValidationRule>

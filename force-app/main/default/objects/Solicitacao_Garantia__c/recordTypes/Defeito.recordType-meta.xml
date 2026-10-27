@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Defeito</fullName>
+    <active>true</active>
+    <description>Falha de fabricação ou funcionamento.</description>
+    <label>Defeito</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Aberta</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Em Vistoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em Análise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando Aprovação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aprovada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejeitada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concluída</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prioridade__c</picklist>
+        <values>
+            <fullName>Baixa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Média</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

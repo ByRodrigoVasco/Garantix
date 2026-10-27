@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Garantia__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <inlineHelpText>Garantia à qual esta solicitação pertence.</inlineHelpText>
+    <label>Garantia</label>
+    <referenceTo>Garantia__c</referenceTo>
+    <relationshipLabel>Solicitações</relationshipLabel>
+    <relationshipName>Solicitacoes</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
