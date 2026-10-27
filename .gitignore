@@ -1,0 +1,9 @@
+.sf/
+.sfdx/
+.localdevserver/
+node_modules/
+.DS_Store
+*.log
+.vscode/settings.json
+entregas/
+test-results/

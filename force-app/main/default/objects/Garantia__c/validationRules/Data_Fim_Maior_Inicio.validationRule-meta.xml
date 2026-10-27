@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Fim_Maior_Inicio</fullName>
+    <active>true</active>
+    <description>Impede cadastrar garantia com período inválido.</description>
+    <errorConditionFormula>Data_Fim__c &lt; Data_Inicio__c</errorConditionFormula>
+    <errorDisplayField>Data_Fim__c</errorDisplayField>
+    <errorMessage>A data de fim deve ser igual ou posterior à data de início.</errorMessage>
+</ValidationRule>

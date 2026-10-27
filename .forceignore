@@ -1,0 +1,5 @@
+# Arquivos que o Salesforce CLI ignora
+package.xml
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**

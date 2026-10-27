@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fabrica</fullName>
+    <active>true</active>
+    <description>Garantia padrão oferecida pelo fabricante.</description>
+    <label>Fábrica</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Ativa</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Expirada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
